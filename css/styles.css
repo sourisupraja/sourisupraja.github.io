@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(214, 211, 211);
+    margin: 20px;
+}
+
+
+header{
+    background-color: rgb(4, 4, 56);
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+}
+
+section{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0, 0,1);
+}
+img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px,0;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+            
+            padding: 10px;
+            font-weight: bold;
+            border-radius: 5px;
+            background-color: rgb(80, 80, 152);
+            color: white;
+            background-color: rgb(80, 80, 152);
+            cursor: pointer;
+
+        }
+.email, .call, .contact, .description, .linkedin{
+    margin-bottom: 15px;
+}
